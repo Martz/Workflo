@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>TransFlo Instruments Fuel Manager</title>
+
+    <meta name="description" content="Source code generated using layoutit.com">
+    <meta name="author" content="LayoutIt!">
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+  </head>
+  <body>
+
+
+
+
+
+<header>
+<nav class="navbar navbar-default navbar-fixed-top navbar-inverse">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+
+      <img alt="Bootstrap Image Preview" src="images/small.png" style="padding-top: 8px">
+
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+      <ul class="nav navbar-nav">
+
+        <li>
+        	<li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">TransFlo Instruments <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="index.html">Home</a></li>
+            
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+</header>
+
+
+
+
+
+
+
+
+
+<div class="container-fluid content">
+
+	<div class="row">
+		<div class="col-md-2 text-center left-nav">
+			<div class="btn-group text-center">
+
+				<button class="btn btn-danger">
+					Sections
+				</button>
+				<button data-toggle="dropdown" class="btn btn-danger dropdown-toggle">
+					<span class="caret"></span>
+				</button>
+				<ul class="dropdown-menu">
+					<li>
+						<a href="vehplant.html">Veh/Plant</a>
+					</li>
+					<li>
+						<a href="vehiclerecord.html">Veh Record</a>
+					</li>
+					
+					<li>
+						<a href="drivers.html">Drivers</a>
+					</li>
+					<li>
+						<a href="driverrecord.html">Driver Record</a>
+					</li>
+					<li>
+						<a href="products.html">Products</a>
+					</li>
+					
+					<li>
+						<a href="siteloc.html">Site Locations</a>
+					</li>
+					<li>
+						<a href="tanks.html">Tanks</a>
+					</li>
+					<li>
+						<a href="productdel.html">Product Deliveries</a>
+					</li>
+					
+					<li>
+						<a href="pumps.html">Pumps</a>
+					</li>
+					<li>
+						<a href="orderentry.html">Order Entries</a>
+					</li>
+					<li>
+						<a href="manual.html">Manual Transactions</a>
+					
+					</li>
+					<li>
+						<a href="viewfueltx.html">View TRefuelling Transactions</a>
+					</li>
+					<li>
+						<a href="importtx.html">Import Transactions</a>
+					</li>
+					<li>
+						<a href="datatransfer.html">Data Transfer</a>
+					</li>
+					
+					<li>
+						<a href="reports.html">Reports</a>
+					</li>
+					<li>
+						<a href="rejected.html">View Rejected</a>
+					</li>
+					<li>
+						<a href="remote.html">Remote Dips ATG</a>
+					</li>
+					
+					<li>
+						<a href="assignremote.html">Assign Remote Deliveries</a>
+					</li>
+					<li>
+						<a href="polling.html">Direct Polling</a>
+					</li>
+					<li>
+						<a href="eventlog.html">Event Log</a>
+					
+					<li>
+						<a href="localpara.html">Local Parameters</a>
+					</li>
+					<li>
+						<a href="maintscreen.html">Maintenance Screen</a>
+					</li>
+					<li>
+						<a href="errorlog.html">Error Log</a>
+					</li>
+					
+					<li>
+						<a href="settings.html">System Settings</a>
+					</li>
+					<li>
+						<a href="output.html">Output Files</a>
+					</li>
+					<li>
+						<a href="special.html">Special Refuelling Activity</a>
+					</li>
+					<li>
+						<a href="backup.html">Backup</a>
+					</li>
+					
+					
+				</ul>
+			</div>
+		</div>
+		<div class="col-md-8">
+<p>&nbsp;</p>
+			<h3 class="text-left remove-padding">
+				Product Delivery
+			</h3>
+
+<br>
+
+
+	<p>The Product Delivery screen is accessed via the Product Delivery button on the Product Storage Tank screen.</p>
+
+<p>	It is important to note that most TransFlo remote site controllers allow product deliveries to be entered at the remote site. If this is done details of the delivery will be received by FuelManager during its next communication session and added to the stock of the related tank. You should therefore ensure that the delivery details are not duplicated. This is best achieved by the system administrator dictating that all deliveries are either entered locally (at the remote refuelling site) or entered via FuelManager.</p>
+
+<p>	If the selected tank is linked to pumps that are controlled by direct polling a warning will be given that </p>
+<p>refuelling will be suspended whilst the Product Delivery screen is active.</p>
+
+<h3 class="text-left remove-padding">
+				Entering  a Delivery
+			</h3>
+
+<p>The Location, H.Q. Tank Reference and Current Stock fields are filled automatically and cannot be manually changed. If you have selected the wrong tank click Exit and select the correct one on the Product Storage Tank screen.</p>
+
+<ul>
+<li>Enter the Order Number relating to this delivery, The Quantity Outstanding field will be updated to show the fuel quantity outstanding on the order. If you are not using the Fuel Order Entry facility or this delivery is not covered by an order number leave blank and move straight to the Delivery field.</li>
+<li></li>
+<li>Enter the quantity of product received. Quantities will be accepted that are within the range of 0.1 litre to a maximum of the tank ullage.</li>
+<li></li>
+<li>Accept the default of the current date or change as necessary.</li>
+<li></li>
+<li>The delivery quantity and date are the only details that FuelManager requires, all other fields are optional. The Confirm Delivery and Cancel Delivery buttons can be used at any time.</li>
+<li></li>
+<li>The Delivery Value should be entered if known or later if not. This will ensure the integrity of your stock value figures. The Value can be entered in either £ or €. </li>
+<li></li>
+<li>Other fields are for information only.</li>
+
+</ul>
+
+
+<p>When you are satisfied with the detail on the form click the Confirm Delivery button, if not click the Cancel Delivery button. All fields will be reset and the Current Stock updated.</p>
+
+<p>Once confirmed the product delivery quantity is posted to the related storage tank and the transaction cannot be reversed. Should an incorrect quantity be inadvertently be confirmed the required adjustment must be made using the dip facility on the Product Storage Tank screen.</p>
+
+<p>When a product delivery has been completed and confirmed FuelManager makes the following adjustments to the Product Storage Tank.</p>
+
+<ul>
+
+<li>Current stock is increased by the quantity of the product delivered.</li>
+<li>Period deliveries is increased by the quantity of the product delivered.</li>
+<li>Pence/litre (p/litre) value is adjusted to reflect the new current stock and stock value figures.</li>
+
+</ul>
+
+<p>The new p/litre value will immediately be applied to all incoming refuelling transactions.</p>
+
+<p>Remember that except for direct polling systems the updated tank records must be uploaded to the remote site to enable continued refuelling.</p>
+
+<h3 class="text-left remove-padding">
+				Product Delivery List
+			</h3>
+
+
+
+<p>The Product Deliveries List shows a history of deliveries, dips and p/litre value adjustments.</p>
+
+
+
+<h3 class="text-left remove-padding">
+				Amending a Delivery Value
+			</h3>
+
+
+<p>A delivery value will need to be amended if the value was unknown at the time of entering the delivery and either no value or an approximate value was entered.</p>
+
+
+<ul>
+
+<li>Select the delivery entry whose value to amend by a single click on the delivery record.</li>
+<li>Ensure that the correct record is marked.</li>
+<li>Click the Amend Delivery Value button.</li>
+<li>The New Delivery Value box opens.</li>
+<li>Select the currency of the value to be entered.</li>
+<li>	Enter the new value and click the tick button to confirm.</li>
+<li>Click the Exit button to close the New Delivery Value box. If you exit without clicking the tick button the new value is ignored.</li>
+
+</ul>
+
+
+
+<p>When a delivery value is amended FuelManager makes the following adjustments to the Product Deliveries List and related storage tank details.</p>
+
+<ul>
+
+	<li>The Product Deliveries List entry is updated with the new delivery value.</li>
+<li>The stock value, both £ and €, of the related storage tank is increased or decreased to reflect the change in delivery value.</li>
+<li>Pence/litre (p/litre) value is adjusted to reflect the new current stock and stock value figures.</li>
+
+</ul>
+
+
+
+<h3 class="text-left remove-padding">
+				Delete Deliveries
+			</h3>
+	
+
+	<ul>
+
+		<li>Select the entries to be deleted by clicking on the entry to mark it.</li> 
+		<li>Pressing the ‘Ctrl’ key allows a number of entries to be marked.</li>
+		<li>Click the Delete Deliveries button. </li>
+		<li>A warning is given, if you confirm your action the selected entries are immediately deleted.</li>
+
+</ul>
+
+
+<p>This action will only remove the selected entries from the Product Deliveries List; it does not affect the product stock or stock value of the related storage tanks.</p>
+
+
+
+
+
+		</div>
+
+		<div class="col-md-2 right-nav">
+			<button type="button" class="btn btn-block btn-default">
+
+        <a href="index.html">Home</a>
+			</button>
+      <button type="button" class="btn btn-block btn-default">
+
+        <a href="testpdf.pdf">Download PDF</a>
+			</button>
+
+<button type="button" class="btn btn-block btn-default">
+
+        <a href="index.html">More Info</a>
+			</button>
+      <button type="button" class="btn btn-block btn-default">
+
+        <a href="testpdf.pdf">Contact Us</a>
+			</button>
+
+
+
+
+
+<br>
+<br>
+			<div class="img"><img src="images/2001.png" alt="images/3001.png" class="img-responsive center-block"></div>
+<br>
+<br>
+			<div class="img"><img src="images/2002.png" alt="images/3002.png" class="img-responsive center-block"></div>	
+
+		
+		</div>
+
+
+	</div>
+</div>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+<footer>
+<nav class="navbar navbar-default navbar-fixed-bottom navbar-inverse">
+  <div class="container-fluid">
+  	<p style="color:white; text-align: center;">TransFlo Instruments Ltd 2018</p>
+    
+  </div>
+</nav>
+</footer>
+
+
+
+
+
+
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
+  </body>
+</html>

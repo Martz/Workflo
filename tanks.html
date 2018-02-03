@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>TransFlo Instruments Fuel Manager</title>
+
+    <meta name="description" content="Source code generated using layoutit.com">
+    <meta name="author" content="LayoutIt!">
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+  </head>
+  <body>
+
+
+
+
+
+<header>
+<nav class="navbar navbar-default navbar-fixed-top navbar-inverse">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+
+      <img alt="Bootstrap Image Preview" src="images/small.png" style="padding-top: 8px">
+
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+      <ul class="nav navbar-nav">
+
+        <li>
+        	<li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">TransFlo Instruments <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="index.html">Home</a></li>
+            
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+</header>
+
+
+
+
+
+
+
+
+
+<div class="container-fluid content">
+
+	<div class="row">
+		<div class="col-md-2 text-center left-nav">
+			<div class="btn-group text-center">
+
+				<button class="btn btn-danger">
+					Sections
+				</button>
+				<button data-toggle="dropdown" class="btn btn-danger dropdown-toggle">
+					<span class="caret"></span>
+				</button>
+				<ul class="dropdown-menu">
+					<li>
+						<a href="vehplant.html">Veh/Plant</a>
+					</li>
+					<li>
+						<a href="vehiclerecord.html">Veh Record</a>
+					</li>
+					
+					<li>
+						<a href="drivers.html">Drivers</a>
+					</li>
+					<li>
+						<a href="driverrecord.html">Driver Record</a>
+					</li>
+					<li>
+						<a href="products.html">Products</a>
+					</li>
+					
+					<li>
+						<a href="siteloc.html">Site Locations</a>
+					</li>
+					<li>
+						<a href="tanks.html">Tanks</a>
+					</li>
+					<li>
+						<a href="productdel.html">Product Deliveries</a>
+					</li>
+					
+					<li>
+						<a href="pumps.html">Pumps</a>
+					</li>
+					<li>
+						<a href="orderentry.html">Order Entries</a>
+					</li>
+					<li>
+						<a href="manual.html">Manual Transactions</a>
+					
+					</li>
+					<li>
+						<a href="viewfueltx.html">View TRefuelling Transactions</a>
+					</li>
+					<li>
+						<a href="importtx.html">Import Transactions</a>
+					</li>
+					<li>
+						<a href="datatransfer.html">Data Transfer</a>
+					</li>
+					
+					<li>
+						<a href="reports.html">Reports</a>
+					</li>
+					<li>
+						<a href="rejected.html">View Rejected</a>
+					</li>
+					<li>
+						<a href="remote.html">Remote Dips ATG</a>
+					</li>
+					
+					<li>
+						<a href="assignremote.html">Assign Remote Deliveries</a>
+					</li>
+					<li>
+						<a href="polling.html">Direct Polling</a>
+					</li>
+					<li>
+						<a href="eventlog.html">Event Log</a>
+					
+					<li>
+						<a href="localpara.html">Local Parameters</a>
+					</li>
+					<li>
+						<a href="maintscreen.html">Maintenance Screen</a>
+					</li>
+					<li>
+						<a href="errorlog.html">Error Log</a>
+					</li>
+					
+					<li>
+						<a href="settings.html">System Settings</a>
+					</li>
+					<li>
+						<a href="output.html">Output Files</a>
+					</li>
+					<li>
+						<a href="special.html">Special Refuelling Activity</a>
+					</li>
+					<li>
+						<a href="backup.html">Backup</a>
+					</li>
+					
+					
+				</ul>
+			</div>
+		</div>
+		<div class="col-md-8">
+<p>&nbsp;</p>
+			
+<br>
+
+			<h3 class="text-left remove-padding">
+				Product Storage Tanks
+			</h3>
+
+
+
+<p>The Storage Tank screen provides not only extensive information on the state of your system fuel stocks but also acts as the gateway to all other storage tank related facilities.</p>
+
+<p>The tank stock and stock value information listed on the right of the screen is updated automatically as the result of refuelling transactions, dips, product deliveries and stock value adjustments. These cannot be manually altered.</p>
+
+<p>Note: The Product Delivery screen is described in full in the next chapter (12).</p>
+
+<h3 class="text-left remove-padding">
+				Adding a Storage Tank
+			</h3>
+
+
+			<ul>
+				<li>Click the Add Tank button.</li>
+				<li>Select the tank location from the Location List dropdown box. If the location you require is not on the list it must first be added via the Site Locations screen.</li>
+				<li>Enter the local tank number (tank number at remote site), FuelManager allocates H.Q. reference numbers automatically.</li>
+				<li>Enter the tank Capacity in litres and the Alarm Level in litres. The Alarm Level must not exceed 10% of capacity.</li>
+				<li>Select fuel type from the product Name dropdown box.</li>
+				<li>Other fields are optional.</li>
+
+			</ul>
+
+			<p>The new tank will be accepted by FuelManager when you attempt to move to a different record.</p>
+
+			<p>The Last and Next Test fields are for information recording of tank tests.</p>
+
+			<p>When stock falls below the figure entered in the Re-order Level field a warning reminder shows on the Main Control Panel.</p>
+			<p>As tank stock depletes and approaches the Alarm Level a warning that must be acknowledged, shows when the Main Control Panel is activated.</p>
+
+			<p>Detail will appear in the Attached Pumps box as you add dispensing pumps to the system.</p>
+
+			<p>Once a tank has been added to FuelManager it is suggested that dip is entered to avoid the Alarm Level warning. </p>
+
+
+
+			<h3 class="text-left remove-padding">
+				Deleting a Storage Tank
+			</h3>
+
+			<ul>
+			<li>Go to the tank record to be deleted by using the video buttons.</li>
+			<li>Click the Delete tank button. A warning will be given that requires confirmation. The tank record will them be removed from the database.</li>
+			<li>Do not delete a tank in order to enter a modified set up as FuelManager will allocate a new H.Q. reference number to the new tank which will impact on site refuelling and the ability of FuelManager to post incoming transactions.</li>
+
+			<li>Note: All dispensing pumps associated with the deleted tank will also be deleted.</p>
+			</ul>
+
+
+<h3 class="text-left remove-padding">
+				Modify a Storage Tank
+			</h3>
+
+<p>Once registered the set up information for a tank would not normally need to be altered. However should a mistake have been made during setting up the tank or the tank changed or the product changed the basic tank details can be modified by clicking the Modify Tank button.</p>
+<p>You can change the Capacity, Alarm Level and Product details.</p>
+
+<p>This feature should be used with care since it will impact on site refuelling and the handling of incoming refuelling transactions.</p>
+<p>Before modifying the details of any tank you should ensure that all refuelling transactions relating to the original tank set up are brought into FuelManager and posted and that the associated dispensing pumps have been deleted or updated.</p>
+
+<h3 class="text-left remove-padding">
+				Entering a Tank Dip
+			</h3>
+
+<p>You can enter a tank dip figure to make adjustments to tank stock. It is recommended that this is done on a regular basis, say once a month, to compensate for inaccuracies in pump readings and also for audit purposes.</p>
+
+<ul>
+<li>Select the tank that has been dipped.</li>
+<li>Enter the new dip figure in the Last Dip field.</li>
+<li>Enter the dip date either manually or by using the calendar feature via the action button.</li>
+<li>Press ‘enter’ or ‘tab’ on the keyboard to confirm the date.</li>
+
+</ul>
+
+
+		
+
+<p>You will be asked if you wish to reconcile current stock to dip.</p>
+
+<p>To hold the dip figure as information only without affecting the actual stock figures click the default No button, if you click the Yes button the following adjustments are made.</p>
+
+<ul>
+
+	<li>Current stock is set to the new dip figure.</li>
+<li>	Period deliveries are set to zero.</li>
+<li>	Period usage is set to zero.</li>
+<li>	Life deliveries are adjusted by the difference between the dip figure and the previous stock figure.</li>
+<li> 	Stock value, both £ and €, is adjusted using the current cost per litre figure.</li>
+</ul>
+
+
+
+<h3 class="text-left remove-padding">
+				Attached Pumps
+			</h3>
+
+<p>Once you have registered pumps, those that are attached to a particular tank will show on the list.
+You can quick view of the any attached pumps by double clicking on the particular pump in the list. This feature is for information only therefore none of the Dispensing Pump screen facilities, apart from Memo, are available.</p>
+
+
+<h3 class="text-left remove-padding">
+				Tank List
+			</h3>
+
+<p>For large multi-site systems the Tank List provides and easy means of jumping to a particular tank record.
+Double click on the required tank to move immediately to that record.</p>
+
+
+<h3 class="text-left remove-padding">
+				Adjusting Pence Per Litre Cost
+			</h3>
+
+<p>The p/litre figures shown for each tank are based on the current stock and the stock value entered either at the time of a fuel delivery or later if this value is not known at the time of delivery.</p>
+<p>There will, however be instances when the p/litre figure needs to be adjusted or corrected.</p>
+
+
+<ul>
+<li>Select the tank whose p/litre you wish to adjust.</li>
+<li>Click the p/litre button, the current value is shown in the change value form. Enter the new value, this must be entered in £’s. For example 95.4p/litre would be entered as 0.954; £1.05p/litre would be entered as 1.05.</li>
+<li>Click the tick button to confirm entry. Stock values are updated immediately to reflect the change, ensure they are correct before exiting the form.</li>
+<li>An entry is made in the Product Deliveries List to record the change.</li>
+</ul>
+
+
+
+
+
+		</div>
+
+		<div class="col-md-2 right-nav">
+			<button type="button" class="btn btn-block btn-default">
+
+        <a href="index.html">Home</a>
+			</button>
+      <button type="button" class="btn btn-block btn-default">
+
+        <a href="testpdf.pdf">Download PDF</a>
+			</button>
+
+<button type="button" class="btn btn-block btn-default">
+
+        <a href="index.html">More Info</a>
+			</button>
+      <button type="button" class="btn btn-block btn-default">
+
+        <a href="testpdf.pdf">Contact Us</a>
+			</button>
+
+
+
+
+
+<br>
+<br>
+			<div class="img"><img src="images/2001.png" alt="images/3001.png" class="img-responsive center-block"></div>
+<br>
+<br>
+			<div class="img"><img src="images/2002.png" alt="images/3002.png" class="img-responsive center-block"></div>	
+
+		
+		</div>
+
+
+	</div>
+</div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<footer>
+<nav class="navbar navbar-default navbar-fixed-bottom navbar-inverse">
+  <div class="container-fluid">
+  	<p style="color:white; text-align: center;">TransFlo Instruments Ltd 2018</p>
+    
+  </div>
+</nav>
+</footer>
+
+
+
+
+
+
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
+  </body>
+</html>

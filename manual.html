@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>TransFlo Instruments Fuel Manager</title>
+
+    <meta name="description" content="Source code generated using layoutit.com">
+    <meta name="author" content="LayoutIt!">
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+  </head>
+  <body>
+
+
+
+
+
+<header>
+<nav class="navbar navbar-default navbar-fixed-top navbar-inverse">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+
+      <img alt="Bootstrap Image Preview" src="images/small.png" style="padding-top: 8px">
+
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+      <ul class="nav navbar-nav">
+
+        <li>
+        	<li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">TransFlo Instruments <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="index.html">Home</a></li>
+            
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+</header>
+
+
+
+
+
+
+
+
+
+<div class="container-fluid content">
+
+	<div class="row">
+		<div class="col-md-2 text-center left-nav">
+			<div class="btn-group text-center">
+
+				<button class="btn btn-danger">
+					Sections
+				</button>
+				<button data-toggle="dropdown" class="btn btn-danger dropdown-toggle">
+					<span class="caret"></span>
+				</button>
+				<ul class="dropdown-menu">
+					<li>
+						<a href="vehplant.html">Veh/Plant</a>
+					</li>
+					<li>
+						<a href="vehiclerecord.html">Veh Record</a>
+					</li>
+					
+					<li>
+						<a href="drivers.html">Drivers</a>
+					</li>
+					<li>
+						<a href="driverrecord.html">Driver Record</a>
+					</li>
+					<li>
+						<a href="products.html">Products</a>
+					</li>
+					
+					<li>
+						<a href="siteloc.html">Site Locations</a>
+					</li>
+					<li>
+						<a href="tanks.html">Tanks</a>
+					</li>
+					<li>
+						<a href="productdel.html">Product Deliveries</a>
+					</li>
+					
+					<li>
+						<a href="pumps.html">Pumps</a>
+					</li>
+					<li>
+						<a href="orderentry.html">Order Entries</a>
+					</li>
+					<li>
+						<a href="manual.html">Manual Transactions</a>
+					
+					</li>
+					<li>
+						<a href="viewfueltx.html">View TRefuelling Transactions</a>
+					</li>
+					<li>
+						<a href="importtx.html">Import Transactions</a>
+					</li>
+					<li>
+						<a href="datatransfer.html">Data Transfer</a>
+					</li>
+					
+					<li>
+						<a href="reports.html">Reports</a>
+					</li>
+					<li>
+						<a href="rejected.html">View Rejected</a>
+					</li>
+					<li>
+						<a href="remote.html">Remote Dips ATG</a>
+					</li>
+					
+					<li>
+						<a href="assignremote.html">Assign Remote Deliveries</a>
+					</li>
+					<li>
+						<a href="polling.html">Direct Polling</a>
+					</li>
+					<li>
+						<a href="eventlog.html">Event Log</a>
+					
+					<li>
+						<a href="localpara.html">Local Parameters</a>
+					</li>
+					<li>
+						<a href="maintscreen.html">Maintenance Screen</a>
+					</li>
+					<li>
+						<a href="errorlog.html">Error Log</a>
+					</li>
+					
+					<li>
+						<a href="settings.html">System Settings</a>
+					</li>
+					<li>
+						<a href="output.html">Output Files</a>
+					</li>
+					<li>
+						<a href="special.html">Special Refuelling Activity</a>
+					</li>
+					<li>
+						<a href="backup.html">Backup</a>
+					</li>
+					
+					
+				</ul>
+			</div>
+		</div>
+		<div class="col-md-8">
+<p>&nbsp;</p>
+			<h3 class="text-left remove-padding">
+				Manual Transactions
+			</h3>
+
+<br>
+
+		
+
+	
+
+	<p>The Manual Transaction facility provides a means of recording refuelling transactions that have not been captured by the automatic refuelling process. These will be as a result of the automatic system failing to operate, the fuel product not included in the automatic set up or the product being purchased from an outside agency.</p>
+
+	
+	<h3 class="text-left remove-padding">
+				Entering a Manual Transactions
+			</h3>
+
+	<p>The Clear button can be used at any time to cancel the current entry.</p>
+
+	<ul>
+
+	<li>Set the date of the transaction. The default is the current date, a ‘calendar’ action button is provided for convenience. If you select a future date or a date prior to the current month you will be asked to confirm the action.</li>
+
+<li>	Set the time of the transaction, if known. The default is the current time.</li>
+
+<li>	Open the Registration dropdown box and select the relevant vehicle from the list. FuelManager will attempt to find matching registrations if you type directly into the box.</li>
+
+<li>	The Confirm Transaction and Clear buttons are now available. </li>
+
+<li>	Up until this point most data fields have been disabled. Once the vehicle has been selected the Location, Odometer and Fuel fields are enabled allowing data entry. The vehicle Fleet number, if allocated, is also shown.</li>
+
+<li>	If a Driver Name is required click the Reqd box and select from the Driver dropdown box.</li>
+
+<li>	Enter the Location at which the fuel was obtained. This can be either one of your remote refuelling sites selected from the dropdown list or any other name. For example a garage name and location.</li>
+
+
+
+	</ul>
+
+	<p>If known enter the vehicle Odometer reading at the time of refuelling, this is important in order to maintain accurate M.P.G. figures. Should you enter a figure that FuelManager cannot reconcile you will be given a warning.</p>
+
+	<ul>
+
+
+<li>The box below the Odometer field indicates the previous and/or next odometers for the vehicle, these relate to the transaction date entered.</li>
+
+<li>	Enter the fuel amount purchased in the Fuel field, which is labelled with the main vehicle fuel, to 1/10 litre.</li>
+<li>	Delivery amount is limited to the vehicle tank capacity if set on the Vehicle Record screen.</li>
+
+<li>	Ensure the Currency Type is correctly selected. If fuel was drawn from one of your refuelling sites the Fuel Cost will be based on the p/litre figure for the related tank. The Fuel Cost can be changed as required.</li>
+
+<li>	Auxiliary fuel details will only be enabled if the vehicle has an auxiliary fuel registered in the Vehicle Record screen. The Aux. Pump field is only enabled if the chosen Location  automatically controls the Aux. Product. </li>
+<li>	The Aux. Cost is based on the quantity of Aux. Product and its p/litre figure, if available. The Aux. Cost can be changed as required.</li>
+
+<li>	If a quantity for both the main vehicle fuel and its auxiliary fuel are entered FuelManager generates two separate transactions.</li>
+
+<li>	Use the Reference field to not any other information. Tick the Receipt to record if a receipt was produced for the transaction.</li>
+
+<li>	Click the Confirm Transaction button when all data is entered and checked. FuelManager will confirm or otherwise that the transaction has been accepted</li>
+
+</ul>
+
+
+<h3 class="text-left remove-padding">
+				Adjusting the Vehicle Odometer Reading
+			</h3>
+
+<p>Although vehicle odometer readings can be adjusted using the Manual Transaction screen it is recommended that the Change Odometer button on the Vehicle Registration screen is used.</p>
+
+<p>You need to only select the vehicle from the Registration dropdown box and enter the new/adjusted odometer reading.</p>
+
+<p>Entering a transaction with a date before the current date will not affect the vehicles Latest Odometer or Distance Life figures.</p>
+<p>To alter a vehicles odometer reading to one lower than the latest shown the transaction date must be the current date. However when the current date is used and an odometer reading lower than the Latest Odometer is entered a warning will be given as well an advice of the affect on the Distance Life figure.</p>
+
+<p>A transaction record will be posted within FuelManager.</p>
+
+<h3 class="text-left remove-padding">
+				Adjusting a Vehicles Fuel Figure
+			</h3>
+
+<p>Either a negative or positive figure can be entered in the Fuel field to adjust the vehicles Fuel Life figure
+as shown on the Vehicle Record screen.</p>
+
+<ul>
+ 
+<li>After selecting the vehicle from the Registration dropdown box you should enter both the fuel</li>
+<li>adjustment figure and the current vehicle odometer.</li>
+<li>If no Location is selected only the statistics for the vehicle will be adjusted. If a Location that is automatically controlled is selected the Storage Tank and Dispensing Pump figures will also be adjusted.</li>
+
+
+</ul>
+
+
+		</div>
+
+		<div class="col-md-2 right-nav">
+			<button type="button" class="btn btn-block btn-default">
+
+        <a href="index.html">Home</a>
+			</button>
+      <button type="button" class="btn btn-block btn-default">
+
+        <a href="testpdf.pdf">Download PDF</a>
+			</button>
+
+<button type="button" class="btn btn-block btn-default">
+
+        <a href="index.html">More Info</a>
+			</button>
+      <button type="button" class="btn btn-block btn-default">
+
+        <a href="testpdf.pdf">Contact Us</a>
+			</button>
+
+
+
+
+
+<br>
+<br>
+			<div class="img"><img src="images/2001.png" alt="images/3001.png" class="img-responsive center-block"></div>
+<br>
+<br>
+			<div class="img"><img src="images/2002.png" alt="images/3002.png" class="img-responsive center-block"></div>	
+
+		
+		</div>
+
+
+	</div>
+</div>
+
+
+<br>
+<br>
+<br>
+<br>
+
+<footer>
+<nav class="navbar navbar-default navbar-fixed-bottom navbar-inverse">
+  <div class="container-fluid">
+  	<p style="color:white; text-align: center;">TransFlo Instruments Ltd 2018</p>
+    
+  </div>
+</nav>
+</footer>
+
+
+
+
+
+
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
+  </body>
+</html>

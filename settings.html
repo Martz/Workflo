@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>TransFlo Instruments Fuel Manager</title>
+
+    <meta name="description" content="Source code generated using layoutit.com">
+    <meta name="author" content="LayoutIt!">
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+  </head>
+  <body>
+
+
+
+
+
+<header>
+<nav class="navbar navbar-default navbar-fixed-top navbar-inverse">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+
+      <img alt="Bootstrap Image Preview" src="images/small.png" style="padding-top: 8px">
+
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+      <ul class="nav navbar-nav">
+
+        <li>
+        	<li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">TransFlo Instruments <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="index.html">Home</a></li>
+            
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+</header>
+
+
+
+
+
+
+
+
+
+<div class="container-fluid content">
+
+	<div class="row">
+		<div class="col-md-2 text-center left-nav">
+			<div class="btn-group text-center">
+
+				<button class="btn btn-danger">
+					Sections
+				</button>
+				<button data-toggle="dropdown" class="btn btn-danger dropdown-toggle">
+					<span class="caret"></span>
+				</button>
+				<ul class="dropdown-menu">
+					<li>
+						<a href="vehplant.html">Veh/Plant</a>
+					</li>
+					<li>
+						<a href="vehiclerecord.html">Veh Record</a>
+					</li>
+					
+					<li>
+						<a href="drivers.html">Drivers</a>
+					</li>
+					<li>
+						<a href="driverrecord.html">Driver Record</a>
+					</li>
+					<li>
+						<a href="products.html">Products</a>
+					</li>
+					
+					<li>
+						<a href="siteloc.html">Site Locations</a>
+					</li>
+					<li>
+						<a href="tanks.html">Tanks</a>
+					</li>
+					<li>
+						<a href="productdel.html">Product Deliveries</a>
+					</li>
+					
+					<li>
+						<a href="pumps.html">Pumps</a>
+					</li>
+					<li>
+						<a href="orderentry.html">Order Entries</a>
+					</li>
+					<li>
+						<a href="manual.html">Manual Transactions</a>
+					
+					</li>
+					<li>
+						<a href="viewfueltx.html">View TRefuelling Transactions</a>
+					</li>
+					<li>
+						<a href="importtx.html">Import Transactions</a>
+					</li>
+					<li>
+						<a href="datatransfer.html">Data Transfer</a>
+					</li>
+					
+					<li>
+						<a href="reports.html">Reports</a>
+					</li>
+					<li>
+						<a href="rejected.html">View Rejected</a>
+					</li>
+					<li>
+						<a href="remote.html">Remote Dips ATG</a>
+					</li>
+					
+					<li>
+						<a href="assignremote.html">Assign Remote Deliveries</a>
+					</li>
+					<li>
+						<a href="polling.html">Direct Polling</a>
+					</li>
+					<li>
+						<a href="eventlog.html">Event Log</a>
+					
+					<li>
+						<a href="localpara.html">Local Parameters</a>
+					</li>
+					<li>
+						<a href="maintscreen.html">Maintenance Screen</a>
+					</li>
+					<li>
+						<a href="errorlog.html">Error Log</a>
+					</li>
+					
+					<li>
+						<a href="settings.html">System Settings</a>
+					</li>
+					<li>
+						<a href="output.html">Output Files</a>
+					</li>
+					<li>
+						<a href="special.html">Special Refuelling Activity</a>
+					</li>
+					<li>
+						<a href="backup.html">Backup</a>
+					</li>
+					
+					
+				</ul>
+			</div>
+		</div>
+		<div class="col-md-8">
+<p>&nbsp;</p>
+			<h3 class="text-left remove-padding">
+				System Settings
+			</h3>
+
+<br>
+
+	
+
+<p>Detail entered via the System Settings screen is critical to the correct operation of FuelManager. The screen is password protected and changes should only be made by a TransFlo engineer.
+The screen may be viewed by accessing without entering the password.</p>
+
+
+<p>The various data entry fields and tick boxes are described briefly below:</p>
+
+<ul>
+
+<li>Session Dir Location of the FuelManager front-end database. The default is c:\program files\fuelmanager\</li>
+
+
+<li>Download Dir - Folder into which all incoming files are saved. Set as a sub folder of the Session Dir.</li>
+
+<li>Upload Dir - Folder that holds files ready to be sent to the remote sites. Set as a sub folder of the Session Dir.</li>
+
+<li>Remote Type - Specifies the system type at the remote sites and affects the way in which FuelManager operates.</li>
+
+<li>Output File - The file type and layout required for any external system, e.g. fleet management or analysis software.</li>
+
+<li>Owner Code - A unique customer related code, predefined by TransFlo.</li>
+
+<li>Px Fuel Width - Defines resolution of fuel fields as set in remote sytem.</li>
+
+<li>Server/Data Dir - Location of the FuelManager back-end database.</li>
+
+<li>Activate Error Log - Causes any system errors to be written to the error log.</li>
+
+<li>Activate Modem Log - Logs all modem and data transfer activity. </li>
+
+<li>Activate Odo Entry Limit - Used by direct polling sites only.Not Selected = Reject all incorrect odometer entries.Selected = Accept odometer if 3 entries the same.</li>
+
+<li>Activate Event Log - FuelManager will log most significant events that affect database integrity.</li>
+
+<li>Remote Controller Type - Not currently used.</li>
+
+<li>Activate Transaction Backup - All incoming transactions are saved in raw format to sitebak.dat in the Server/Data directory.</li>
+
+<li>Site Backup Available - Informs FuelManager as to whether backup transactions can be retrieved from the remote sites.</li>
+
+<li>Activate Driver Details Password - Causes the Driver Record screen to be password protected.</li>
+
+<li>Show Comms Engineers Button - Causes Engineers button to appear on the Data Transfer screen.</li>
+
+<li>Programmer Comm Port - Select communication port number to which the DataKey Programmer is connected. Port numbers 1-20 are available.</li>
+
+
+<li>Use Default Modem Reset - When initialising a modem the reset string designated in the modem.ini file is overwritten by the Hayes default ATZ.</li>
+
+<li>Vehicle Tag Offered First - All standard direct polling FuelManager system expect a driver identifier tag (if being used) to be offered before the vehicle tag. However for some specialist operations it is necessary for the vehicle tag to be presented first.</li>
+
+<li>Local Polling - Invokes the direct polling function.</li>
+
+<li>Activate Communications - Allows full access to all communication functions via the Data Transfer screen.</li>
+
+<li>Auto Remote Tank Update - Causes Storage Tank data to be sent to site automatically during an AutoCall communications session.</li>
+
+<li>Send File ? - Files to be sent to each remote site during a communications session. Files names may be added and deleted automatically by FuelManager.</li>
+
+<li>Receive File ? - Files expected to be received from the remote sites. Again FuelManager may adjust the list.</li>
+
+</ul>
+
+
+
+
+		</div>
+
+		<div class="col-md-2 right-nav">
+			<button type="button" class="btn btn-block btn-default">
+
+        <a href="index.html">Home</a>
+			</button>
+      <button type="button" class="btn btn-block btn-default">
+
+        <a href="testpdf.pdf">Download PDF</a>
+			</button>
+
+<button type="button" class="btn btn-block btn-default">
+
+        <a href="index.html">More Info</a>
+			</button>
+      <button type="button" class="btn btn-block btn-default">
+
+        <a href="testpdf.pdf">Contact Us</a>
+			</button>
+
+
+
+
+
+<br>
+<br>
+			<div class="img"><img src="images/2001.png" alt="images/3001.png" class="img-responsive center-block"></div>
+<br>
+<br>
+			<div class="img"><img src="images/2002.png" alt="images/3002.png" class="img-responsive center-block"></div>	
+
+		
+		</div>
+
+
+	</div>
+</div>
+
+
+<footer>
+<nav class="navbar navbar-default navbar-fixed-bottom navbar-inverse">
+  <div class="container-fluid">
+  	<p style="color:white; text-align: center;">TransFlo Instruments Ltd 2018</p>
+    
+  </div>
+</nav>
+</footer>
+
+
+
+
+
+
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
+  </body>
+</html>

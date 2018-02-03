@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>TransFlo Instruments Fuel Manager</title>
+
+    <meta name="description" content="Source code generated using layoutit.com">
+    <meta name="author" content="LayoutIt!">
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+  </head>
+  <body>
+
+
+
+
+
+<header>
+<nav class="navbar navbar-default navbar-fixed-top navbar-inverse">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+
+      <img alt="Bootstrap Image Preview" src="images/small.png" style="padding-top: 8px">
+
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+      <ul class="nav navbar-nav">
+
+        <li>
+        	<li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">TransFlo Instruments <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="index.html">Home</a></li>
+            
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+</header>
+
+
+
+
+
+
+
+
+
+<div class="container-fluid content">
+
+	<div class="row">
+		<div class="col-md-2 text-center left-nav">
+			<div class="btn-group text-center">
+
+				<button class="btn btn-danger">
+					Sections
+				</button>
+				<button data-toggle="dropdown" class="btn btn-danger dropdown-toggle">
+					<span class="caret"></span>
+				</button>
+				<ul class="dropdown-menu">
+					<li>
+						<a href="vehplant.html">Veh/Plant</a>
+					</li>
+					<li>
+						<a href="vehiclerecord.html">Veh Record</a>
+					</li>
+					
+					<li>
+						<a href="drivers.html">Drivers</a>
+					</li>
+					<li>
+						<a href="driverrecord.html">Driver Record</a>
+					</li>
+					<li>
+						<a href="products.html">Products</a>
+					</li>
+					
+					<li>
+						<a href="siteloc.html">Site Locations</a>
+					</li>
+					<li>
+						<a href="tanks.html">Tanks</a>
+					</li>
+					<li>
+						<a href="productdel.html">Product Deliveries</a>
+					</li>
+					
+					<li>
+						<a href="pumps.html">Pumps</a>
+					</li>
+					<li>
+						<a href="orderentry.html">Order Entries</a>
+					</li>
+					<li>
+						<a href="manual.html">Manual Transactions</a>
+					
+					</li>
+					<li>
+						<a href="viewfueltx.html">View TRefuelling Transactions</a>
+					</li>
+					<li>
+						<a href="importtx.html">Import Transactions</a>
+					</li>
+					<li>
+						<a href="datatransfer.html">Data Transfer</a>
+					</li>
+					
+					<li>
+						<a href="reports.html">Reports</a>
+					</li>
+					<li>
+						<a href="rejected.html">View Rejected</a>
+					</li>
+					<li>
+						<a href="remote.html">Remote Dips ATG</a>
+					</li>
+					
+					<li>
+						<a href="assignremote.html">Assign Remote Deliveries</a>
+					</li>
+					<li>
+						<a href="polling.html">Direct Polling</a>
+					</li>
+					<li>
+						<a href="eventlog.html">Event Log</a>
+					
+					<li>
+						<a href="localpara.html">Local Parameters</a>
+					</li>
+					<li>
+						<a href="maintscreen.html">Maintenance Screen</a>
+					</li>
+					<li>
+						<a href="errorlog.html">Error Log</a>
+					</li>
+					
+					<li>
+						<a href="settings.html">System Settings</a>
+					</li>
+					<li>
+						<a href="output.html">Output Files</a>
+					</li>
+					<li>
+						<a href="special.html">Special Refuelling Activity</a>
+					</li>
+					<li>
+						<a href="backup.html">Backup</a>
+					</li>
+					
+					
+				</ul>
+			</div>
+		</div>
+		<div class="col-md-8">
+<p>&nbsp;</p>
+			<h3 class="text-left remove-padding">
+				Data Transfer
+			</h3>
+
+<br>
+
+
+
+	<p>The facilities available via the Data Transfer screen vary depending on the communication method selected on the Locations screen and set up options set by the TransFlo commissioning engineer. These options are described in the chapter System Settings.</p>
+
+<p>	Options not available will have their command buttons disabled (greyed out).</p>
+
+<p>	Workstations with no communications facilities activated will only be allowed access to the Disk Transfer and View Call Log facility.</p>
+
+
+
+
+
+	<h3 class="text-left remove-padding">
+				Calling Remote Sites
+			</h3>
+
+<p>The remote call up facility enables connection to your refuelling sites to retrieve transactions, deliveries, etc. and send updated files, e.g. vehicle and driver files. Connection can be by direct connection or public/private telephony.</p>
+
+
+
+<h3 class="text-left remove-padding">
+				Autocall Times
+			</h3>
+
+
+<p>You can select up to two times within each 24 hour period  when FuelManager will automatically initiate a call procedure to each of the sites selected in your pre-selected call plan. FuelManager will first call each site to retrieve any data available, update all necessary files and then upload all required updated files to each site.</p>
+<p>Enter only the hour during which you want the call to be made, using the 24 hour clock, in the range 01 to 24.</p>
+<p>Setting the hour to 00 will disable the auto call feature. FuelManager will only commence  the auto call procedure if the Main Control Panel is the active screen. </p>
+<p>The status of the auto call setting is displayed at the bottom of the Main Control Panel.</p>
+
+
+<h3 class="text-left remove-padding">
+				Select Call List
+			</h3>
+
+
+<p>Determines which remote sites are included in the call plan.</p>
+<p>All sites that have an active means of communication are included in the list. Move from the Locations Available list to the Locations Selected list to include in all subsequent call plans.</p>
+<p>Location names are easily moved from one list to another using the buttons located between the two lists.</p>
+
+
+<h3 class="text-left remove-padding">
+				View Call Log
+			</h3>
+
+
+<p>The call log provides a full history of all calls made, with a log number and date and time stamp. For each location details of files sent and received is listed.</p>
+
+<p>Records on the call log can be marked and deleted.</p>
+
+
+<h3 class="text-left remove-padding">
+				Mode Selection
+			</h3>
+
+
+<p>Select one of three mode options from the box on the left of the Data Transfer screen to manually initiate your call plan. </p>
+
+<p>The Send Data button will initiate a call procedure that will upload all specified files to your remote sites. This should be used after changes have been made to the FuelManager database that will affect the refuelling operation.</p>
+
+<p>The files that will be uploaded will have been set by the commissioning engineer to suit your operation. See section 18.2.3 below.</p>
+
+<p>You can also choose to update the remote site storage tank file and/or the remote site date and time. Click on the relevant Yes button in the Update Site box. </p>
+
+<p>Should it be necessary FuelManager can be set via System Settings to update the remote site storage tank files automatically during every AutoCall session. This must be set by a TransFlo engineer and should be used with care since the site fuel stock status will mirror that in FuelManager after every call.</p>
+
+<p>The Receive Current Data button will initiate a call to each selected site and retrieve all required files. The data received will automatically be integrated into the FuelManager database.</p>
+
+<p>The Receive Backup Data facility enables refuelling transactions that have been backed up at a remote site to be retrieved. You can only call one site at a time, therefore if you have more than one remote site in your call plan those sites not to be called must be removed from the Locations Selected list to the Locations Available list in Select Call List.</p>
+<p>The back up files are designated by date, you should enter the date of the file to be retrieved. For example by entering 30/06/2009 will retrieve file ‘20090630.dat’ which holds all refuelling transactions for your selected date. </p>
+<p>Should you inadvertently bring in repeat (duplicate) transactions these will be filtered out by FuelManager.</p>
+
+<p>The Cancel button appears as soon as a communication session is initiated. This gives the user the opportunity to end the session early. Once the Cancel button is clicked FuelManager will act on it as soon as possible, e.g. if a file transfer is underway the session will not be cancelled until the current data package has been transferred and verified. Cancelling a transfer before completion will cause any partially transferred file sent to a remote site to be discarded.</p>
+
+<p>The name of the Location currently connected is displayed on the Data Transfer screen as well as a progress bar giving an indication of the file transfer status.</p>
+
+<p>Should a problem occur during a data transfer session a warning message will appear on the Main Control Panel.</p>
+
+
+<h3 class="text-left remove-padding">
+				Media Transfer
+			</h3>
+
+
+<p>The Disk Transfer facility allows files to be passed to and retrieved from remote site systems that have a floppy disk reader incorporated.</p>
+
+<p>You will first be asked to confirm the location of the floppy disk drive (FDD), the default is drive ‘A’.</p>
+<p>FuelManager will then check the status of the disk. If it is clean you will be asked if you want to load the export files, if not the names of the files on the disk will be checked against the files specified for download.</p>
+
+
+<h3 class="text-left remove-padding">
+				Importing Transactions From Media
+			</h3>
+
+
+	
+<p>If Fuelmanager finds any files on the disk that it recognises as transaction or other import files the name of the file will be displayed together with the date and time generated. You will be given the opportunity to import this file. If it is a refuelling transaction file, for example ‘site.dat’ the transactions will be imported and automatically integrated into the FuelManager database.</p>
+
+<p>Once a file has been successfully handled it can be deleted, however you may choose to save the disk as a back up. Remember that Fuelmanager will only load export files to a clean disk.</p>
+
+<h3 class="text-left remove-padding">
+				Exporting Files To Media
+			</h3>
+
+
+
+<p>FuelManager will only upload files to a clean formatted disk. Once Fuelmanager has confirmed the status of the floppy disk you will be asked to confirm that you want to upload the export files.</p>
+
+<p>You will first be prompted to load the System Files to disk. System Files are those required by the remote systems to verify refuelling activity, e.g. ‘vehicle.dat’,’ fuellimit.dat’ etc.  You will only need to upload these files if changes have been made to the FuelManager database since the last upload.</p>
+
+<p>You will next be asked if you wish to load the Output File to disk. The Output File would typically be a file specifically designed to pass refuelling information to a fleet management, accounting or stores control software package. </p>
+<p>Details of the range of Output File types available are given under System Settings.</p>
+
+
+<h3 class="text-left remove-padding">
+				Transfer File Options
+			</h3>
+
+
+<p>Depending on the operation of the site controllers at your remote refuelling sites all or some of the following files may need to be uploaded from FuelManager.These files are listed as required in the Send File section of the System Settings screen. This will be done by your commissioning engineer.</p>
+
+<ul>
+
+<li>Vehicle.dat	holds all necessary vehicle information.</li>
+
+<li>Driver.dat	holds all necessary driver information.</li>
+
+<li>Fuelimit.dat	holds vehicle tank capacities</li>
+
+<li>Odolimit.dat	holds upper limit for odometer entry, referenced to each vehicle.</li>
+
+<li>Validcc.dat	holds cost centres that individual drivers(refuellers) are authorised to refuel.</li>
+
+<li>Ccentre.dat	holds cost centre data referenced to vehicle and fuel type.</li>
+
+<li>Datetime.ini	holds current FuelManager date and time information.</li>
+<li>		Generated automatically if selected in the Site Update box. Not included in the Send File list.</li>
+
+<li>Tmit.dat	holds various other data, particularly tank stock information.</li>
+<li>Generated automatically if selected in the Site Update box, or selected for automatic upload in System Settings. Not included in the Send File list.</li>
+
+<li>A Control File is always uploaded, this is automatically generated. Not included in the Send File list.</li>
+
+</ul>
+
+
+
+<h3 class="text-left remove-padding">
+				Datakey Options
+			</h3>
+
+
+
+<p>DataKeys are used as a means of authorising a refuelling operation. TransFlo provide two variations of DataKey systems, the PumpMaster and PumpMinder. Refer to separate specifications for each system operation.</p>
+
+<p>The PumpMaster  rarely uses the DataKey option. The PumpMinder system only uses DataKeys since it has no means of data communication and all data is carried in the key memory, a DataKey is also used to transfer data between FuelManager and the PumpMinder system.</p>
+
+<p>All DataKey operations require a DataKey Programmer/Reader to be connected to your PC and the relevant port number entered in System Settings. This will be done by the commissioning engineer.</p>
+
+<p>Once the Programmer is switched on, to read or programme a DataKey it must inserted and turned to the right a quarter turn to the reading position.</p>
+
+
+<h3 class="text-left remove-padding">
+				PumpMaster Datakey Options
+			</h3>
+
+
+<p>The Read Key button will initiate a read sequence for both vehicle and driver DataKeys. The result of the read is displayed on the screen. The Clear Key button clears all data from the key.To programme a new key or change data in an existing key click Change Data. Enter the new identifier number of the key (Ident Number) and select Key Type. Note that the Key Type defaults to ‘vehicle’.The Owner Code is set by Fuelmanager and cannot be changed.When satisfied with the data entered click Programme Key and your entered data will be written to the key. The key can now be removed although it is suggested that a final read of the key is performed to ensure that the key is correctly programmed.</p>
+
+
+
+
+
+
+		</div>
+
+		<div class="col-md-2 right-nav">
+			<button type="button" class="btn btn-block btn-default">
+
+        <a href="index.html">Home</a>
+			</button>
+      <button type="button" class="btn btn-block btn-default">
+
+        <a href="testpdf.pdf">Download PDF</a>
+			</button>
+
+<button type="button" class="btn btn-block btn-default">
+
+        <a href="index.html">More Info</a>
+			</button>
+      <button type="button" class="btn btn-block btn-default">
+
+        <a href="testpdf.pdf">Contact Us</a>
+			</button>
+
+
+
+
+
+<br>
+<br>
+			<div class="img"><img src="images/2001.png" alt="images/3001.png" class="img-responsive center-block"></div>
+<br>
+<br>
+			<div class="img"><img src="images/2002.png" alt="images/3002.png" class="img-responsive center-block"></div>	
+
+		
+		</div>
+
+
+	</div>
+</div>
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<footer>
+<nav class="navbar navbar-default navbar-fixed-bottom navbar-inverse">
+  <div class="container-fluid">
+  	<p style="color:white; text-align: center;">TransFlo Instruments Ltd 2018</p>
+    
+  </div>
+</nav>
+</footer>
+
+
+
+
+
+
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
+  </body>
+</html>

@@ -1,0 +1,98 @@
+
+div.left-nav {
+
+}
+div.right-nav {
+}
+
+div.left-nav, div.right-nav {
+	padding-top: 43px;
+}
+
+h3.remove-padding {
+	/* margin-top: -30px; */
+}
+
+div.content {
+	margin-top: 25px;
+}
+
+div.imged {
+display: block;
+text-align: center;
+}
+
+div.center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h3
+{
+ color: #8b0000;
+ font-family: open sans;   
+}
+
+p{
+ color:grey;
+ font-family: open sans;
+ line-height: 160%;
+}
+
+li{
+color:grey;
+line-height: 190%;
+	
+}
+
+a {
+color: white;
+
+}
+
+.btn {
+background: #8b0000;
+
+
+}
+
+table th {
+
+background-color: #8b0000;
+color: white;
+
+}
+
+.glyphmicon {
+
+	font-family: open sans;
+}
+
+.btn-default:hover{
+
+	background-color: #d70303;
+	color: white;
+
+}
+
+.btn-default {
+	color: red;
+}
+
+.button-danger{
+color: #8b0000;
+
+
+}
+
+.dropdown-menu>li>a {
+	color: #8b0000;
+}
+
+img {
+	display: block;
+	margin: auto;
+	padding-top: 30px;
+	
+}
